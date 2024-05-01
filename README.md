@@ -20,3 +20,5 @@ So after the identification just follow these simple steps.
 6. On the second check we will first get the result from point `3` and then since we will shift the
    window now, first we will remove the use of arr[i] from our calculation(in general we will be doing just the opposite of what we did in step 3)
 7. Then we will increment both i and j to shift our window and we will always be in the window size.
+
+### Heaps
