@@ -39,4 +39,7 @@ After the identification just follow these steps :-
 
 > **Note** : The variable sliding window is just opposite of fixed. We just need to take care of two things, first even when we get solution we don't move both pointers just `j` since we still can get a window and second we have another condition that we can exceed the solution and in that case we move `i` via while loop
 
+### Kadanes Algorithm
+The kadanes algorithm is a 
+
 ### Heaps
