@@ -5,7 +5,6 @@ var divisorSubstrings = function (num, k) {
   let count = 0;
   let subStrNum = [];
   let subNum = 0;
-  debugger;
   while (j < strNum.length) {
     subStrNum.push(strNum[j]);
     if (j - i + 1 === k) {

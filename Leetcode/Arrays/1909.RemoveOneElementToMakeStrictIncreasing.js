@@ -3,7 +3,6 @@
  * @return {boolean}
  */
 var canBeIncreasing = function (nums) {
-  debugger;
   let count = 0;
   for (let i = 1; i < nums.length && count < 2; i++) {
     if (nums[i - 1] >= nums[i]) {

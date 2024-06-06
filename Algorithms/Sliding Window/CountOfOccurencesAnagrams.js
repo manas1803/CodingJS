@@ -14,7 +14,6 @@ const getStringCharacterCount = (stringArray) => {
 };
 
 const countOfAnagarams = (string, pattern) => {
-  debugger;
   const stringArray = [...string];
   const patternArray = [...pattern];
   const patternMap = getStringCharacterCount(patternArray);
@@ -23,7 +22,6 @@ const countOfAnagarams = (string, pattern) => {
   let j = 0;
   let anagramsCount = 0;
   while (j < stringArray.length) {
-    debugger;
     if (patternMap.has(stringArray[j])) {
       patternMap.set(stringArray[j], patternMap.get(stringArray[j]) - 1);
       if (patternMap.get(stringArray[j]) === 0) count--;
