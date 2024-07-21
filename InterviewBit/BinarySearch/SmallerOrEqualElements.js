@@ -3,7 +3,10 @@ function find(arr,num){
     let high=arr.length-1;
     let n = arr.length;
     let lastIndex=-1;
-    debugger
+    if(n===1){
+        if(arr[0]<num) return 1
+        else return 0;
+    }
     while(low<=high){
         let mid = Math.floor((low+high)/2)
         let next = (mid+1+n)%n
